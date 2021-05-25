@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.emms.dal.adapter.BrandDataAdapter;
 
 import com.emms.inventoryModel.Brand;
 
+@Service
 public class BrandApi {
 	
 	private BrandDataAdapter brandDataAdapter;
