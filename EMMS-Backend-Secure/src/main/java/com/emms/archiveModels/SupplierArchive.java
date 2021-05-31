@@ -41,6 +41,10 @@ public class SupplierArchive {
 		this.status = status;
 	}
 
+	
+	public int getArchiveId() {
+		return archiveId;
+	}
 
 
 	public int getOriginalId() {
