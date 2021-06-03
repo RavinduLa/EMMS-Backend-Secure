@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.emms.archiveDao.DepartmentArchiveRepository;
 import com.emms.archiveDao.SupplierArchiveRepository;
@@ -18,6 +19,7 @@ import com.emms.inventoryDao.EquipmentRepository;
 
 import com.emms.inventoryModel.Equipment;
 
+@Component
 public class EquipmentDataAdapterImpl implements EquipmentDataAdapter {
 	
 	private EquipmentRepository equipmentrepo;

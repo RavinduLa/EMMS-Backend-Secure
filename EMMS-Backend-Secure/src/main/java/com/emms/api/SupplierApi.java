@@ -4,10 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.emms.dal.adapter.SupplierDataAdapter;
 import com.emms.inventoryModel.Supplier;
 
+@Service
 public class SupplierApi {
 	
 	//data adapter object
